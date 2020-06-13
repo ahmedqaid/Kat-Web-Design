@@ -1,0 +1,171 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  font-family: 'Lato';
+  padding-top: 80px;
+  background-color: #E8E8E0;
+}
+
+#header, footer {
+  width: 100%;
+  background-color: #3F3F3F;
+  padding: 10px;
+  left: 0;
+  right: 0;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+#footer {
+  bottom: 0;
+  padding: 8px;
+  margin-left: -8px;
+  margin-right: 8px;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav a{
+  color: #F0F0F0;
+  display: inline-block;
+  padding: 7px 25px;
+  text-decoration: none;
+}
+
+#namec {
+  margin-left: -20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#email {
+  width: 230px;
+  padding: 6px;
+}
+
+#submit {
+  border: 0;
+  background-color: #f9c21b;
+  width: 150px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+#form {
+  text-align: center;
+}
+
+#copyright{
+  color: #F3F3F3;
+  padding-left: 60px;
+  font-size: 12px;
+}
+
+#header-img {
+   font-size:25px;
+   color:#F3F3F3;
+   margin-left: -90px;
+}
+
+#nav-bar {
+  padding: 4px;
+}
+
+.nav-link {
+  color: #F3F3F3;
+}
+
+#icn {
+  margin-left: 80px;
+  width: 14%;
+  height: 14%;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+#idiv {
+  display: flex;
+  padding: 20px;
+  
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#column {
+  flex-direction: column;
+}
+
+#para {
+  margin-top: -13px;
+}
+
+#video {
+  width: 700px;
+  height: 400px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#pricing {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 70px;
+}
+
+.box {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: calc(100%/3);
+  margin: 10px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+#shadow {
+  margin-top: -16px;
+  width: 100%;
+  background-color: #ccc;
+  opacity: 80%;
+}
+
+#writings, #prices {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  margin-left: -10%;
+}
+
+.button {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 35%;
+  width: 100px;
+  font-weight: bold;
+  background-color: #f9c21b;
+  border: none;
+  padding: 10px;
+  transition: 0.5s;
+  
+}
+
+.button:hover, #submit:hover {
+  background-color: #c29305;
+}
